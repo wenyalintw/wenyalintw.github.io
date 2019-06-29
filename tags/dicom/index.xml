@@ -18,7 +18,28 @@
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wenyalintw.github.io/project/dicom-viewer/</guid>
-      <description>&lt;p&gt;Hi!!!!!!!!!!!&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Hi!!!!!!!!!!!
+&amp;ldquo;&amp;rdquo;&amp;rdquo;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+    &lt;img src=&#34;resources/brain.png&#34; alt=&#34;Dicom Viewer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;簡易醫學影像GUI (Dicom Viewer)&lt;/h2&gt;
+  &lt;p align=&#34;center&#34;&gt;能顯示 2D/3D Dicom影像的應用&lt;/p&gt;
+  &lt;br&gt;
+&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;本project旨在利用python+Qt製作簡易的醫學影像GUI，提供一個平台，能在上面使用python開發測試各式影像處理功能，尤其是針對3D之Dicom Stack！&lt;/p&gt;
+
+&lt;h2 id=&#34;先看兩段demo吧&#34;&gt;先看兩段Demo吧&lt;/h2&gt;
+
+&lt;h3 id=&#34;a-href-https-www-youtube-com-watch-v-toxcznnnz4c-feature-youtu-be-2d-image-processing-a&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TOXczNnnZ4c&amp;feature=youtu.be&#34;&gt;2D Image Processing&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;a-href-https-www-youtube-com-watch-v-ns75aqovoss-feature-youtu-be-3d-image-processing-a&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NS75AQOVOss&amp;feature=youtu.be&#34;&gt;3D Image Processing&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;ldquo;&amp;rdquo;&lt;/p&gt;
 </description>
     </item>
     
