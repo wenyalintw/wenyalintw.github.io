@@ -425,7 +425,7 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref=" person-address">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
@@ -982,11 +982,13 @@
     
     
       
+        Please set an email address for the contact form using the `email` parameter in `config.toml`. Otherwise, set `email_form = 0` to disable the contact form.
+      
       
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/wenyalintw@gmail.com">
+      <form name="contact" method="POST" action="https://formspree.io/">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -1008,11 +1010,6 @@
 
       
 
-      
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:886-975-308813">886-975-308813</a></span>
-      </li>
       
 
       
@@ -1040,6 +1037,20 @@
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
         <a href="mailto:wenyalintw@gmail.com" >Feel Free to Email Me</a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      <li>
+        <i class="fa-li fas fa-phone-volume fa-2x" aria-hidden="true"></i>
+        <a href="tel:&#43;886975308813" >886-975-308813</a>
       </li>
       
       
