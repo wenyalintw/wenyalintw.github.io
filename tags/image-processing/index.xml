@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Wen-Ya Lin</title>
-    <link>https://wenyalintw.github.io/project/</link>
-    <description>Recent content in Projects on Wen-Ya Lin</description>
+    <title>Image Processing on Wen-Ya Lin</title>
+    <link>https://wenyalintw.github.io/tags/image-processing/</link>
+    <description>Recent content in Image Processing on Wen-Ya Lin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
     <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://wenyalintw.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://wenyalintw.github.io/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,15 +20,6 @@
       <guid>https://wenyalintw.github.io/project/dicom-viewer/</guid>
       <description>&lt;p&gt;Hi!!!!!!!!!!!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>https://wenyalintw.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://wenyalintw.github.io/project/external-project/</guid>
-      <description></description>
     </item>
     
   </channel>
