@@ -146,21 +146,9 @@
       <description>&lt;p align=&#34;center&#34;&gt;
   &lt;h2 align=&#34;center&#34;&gt;語音數字辨識專案 (Spoken-Digit Recognizer)&lt;/h2&gt;
   &lt;div align=&#34;center&#34;&gt;
-    本project旨在運用Keras建立Model，辨識使用者說的中/英數字，並使用GUI呈現。
+    本project運用Keras建立Model，辨識使用者說的中/英數字，並使用GUI呈現。
   &lt;/div&gt;
 &lt;/p&gt;
-
-&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/tree/master/src/split_audio&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Split--Audio-src-brightgreen.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/tree/master/src/Spectrogram_CNN&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Spectrogram%2BCNN-src-brightgreen.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/tree/master/src/MFCC_RNN&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/MFCC%2BRNN-src-brightgreen.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/tree/master/src/Gan&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/GAN-src-brightgreen.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/tree/master/src/Demo&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Demo-src-brightgreen.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p align=&#34;center&#34;&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/split_audio.ipynb&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Split--Audio-doc-blue.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Spectrogram_CNN_doc.ipynb&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Spectrogram%2BCNN-doc-blue.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/MFCC_RNN_doc.ipynb&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/MFCC%2BRNN-doc-blue.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/GAN_doc.ipynb&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/GAN-doc-blue.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;
-&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Demo_doc.ipynb&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/Demo-doc-blue.svg&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;demo&#34;&gt;先看段Demo吧！&lt;/h2&gt;
 
@@ -173,7 +161,7 @@
 &lt;p&gt;Demo詳細介紹請點連結&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;### &lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Demo_doc.ipynb&#34;&gt;(Detailed) Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Demo_doc.ipynb&#34;&gt;(Detailed) Demo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
@@ -217,17 +205,17 @@
 &lt;p&gt;對目標1，先將包含多數字的音檔分割，再使用不同種model來辨識，詳細介紹請點連結&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;### &lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/split_audio.ipynb&#34;&gt;(Detailed) Split Audio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/split_audio.ipynb&#34;&gt;(Detailed) Split Audio&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;### &lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Spectrogram_CNN_doc.ipynb&#34;&gt;(Detailed) Spectrogram + CNN&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Spectrogram_CNN_doc.ipynb&#34;&gt;(Detailed) Spectrogram + CNN&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;### &lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/MFCC_RNN_doc.ipynb&#34;&gt;(Detailed) MFCC + RNN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/MFCC_RNN_doc.ipynb&#34;&gt;(Detailed) MFCC + RNN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;對目標2，使用inverse-STFT方式，詳細介紹請點連結&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;### &lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/GAN_doc.ipynb&#34;&gt;(Detailed) GAN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/GAN_doc.ipynb&#34;&gt;(Detailed) GAN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;-3&#34;&gt;問題討論&lt;/h2&gt;
