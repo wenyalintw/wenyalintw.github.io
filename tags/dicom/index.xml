@@ -19,9 +19,6 @@
       
       <guid>https://wenyalintw.github.io/project/dicom-viewer/</guid>
       <description>&lt;p align=&#34;center&#34;&gt;
-  &lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
-    &lt;img src=&#34;resources/brain.png&#34; alt=&#34;Dicom Viewer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
-  &lt;/a&gt;
   &lt;h2 align=&#34;center&#34;&gt;簡易醫學影像GUI (Dicom Viewer)&lt;/h2&gt;
   &lt;p align=&#34;center&#34;&gt;能顯示 2D/3D Dicom影像的應用&lt;/p&gt;
   &lt;br&gt;
