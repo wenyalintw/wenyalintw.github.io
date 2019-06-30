@@ -1,141 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Wen-Ya Lin</title>
-    <link>https://wenyalintw.github.io/project/</link>
-    <description>Recent content in Projects on Wen-Ya Lin</description>
+    <title>Machine Learning on Wen-Ya Lin</title>
+    <link>https://wenyalintw.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Wen-Ya Lin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
     <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://wenyalintw.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://wenyalintw.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Dicom-Viewer</title>
-      <link>https://wenyalintw.github.io/project/dicom-viewer/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://wenyalintw.github.io/project/dicom-viewer/</guid>
-      <description>&lt;p align=&#34;center&#34;&gt;
-  &lt;h2 align=&#34;center&#34;&gt;簡易醫學影像GUI (Dicom Viewer)&lt;/h2&gt;
-  &lt;p align=&#34;center&#34;&gt;能顯示 2D/3D Dicom影像的應用&lt;/p&gt;
-  &lt;br&gt;
-&lt;/p&gt;
-
-&lt;p&gt;本project旨在利用python+Qt製作簡易的醫學影像GUI，提供一個平台，能在上面使用python開發測試各式影像處理功能，尤其是針對3D之Dicom Stack！&lt;/p&gt;
-
-&lt;h2 id=&#34;demo&#34;&gt;先看兩段Demo吧&lt;/h2&gt;
-
-&lt;h3 id=&#34;ahrefhttpswwwyoutubecomwatchvtoxcznnnz4cfeatureyoutube2dimageprocessinga&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TOXczNnnZ4c&amp;amp;feature=youtu.be&#34;&gt;2D Image Processing&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p align=&#34;center&#34;&gt;
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/TOXczNnnZ4c&#34;&gt;
-&lt;/iframe&gt;
-&lt;\p&gt;
-
-&lt;h3 id=&#34;ahrefhttpswwwyoutubecomwatchvns75aqovossfeatureyoutube3dimageprocessinga&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NS75AQOVOss&amp;amp;feature=youtu.be&#34;&gt;3D Image Processing&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p align=&#34;center&#34;&gt;
-&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/NS75AQOVOss&#34;&gt;
-&lt;/iframe&gt;
-&lt;\p&gt;
-
-&lt;h2 id=&#34;&#34;&gt;執行畫面&lt;/h2&gt;
-
-&lt;p&gt;執行程式會打開Main Window，左上角的選單有2D processing和3D processing兩個子選項，其中後者embed有3D volume reconstruction功能&lt;/p&gt;
-
-&lt;h3 id=&#34;mainwindow&#34;&gt;Main Window&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
-    &lt;img src=&#34;resources/mainwindow.png&#34; alt=&#34;mainwindow&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;2dprocessing&#34;&gt;2D processing&lt;/h3&gt;
-
-&lt;p&gt;內含功能&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Load Image (含*.dcm)&lt;/li&gt;
-
-&lt;li&gt;Save Image&lt;/li&gt;
-
-&lt;li&gt;Convert to gray scale&lt;/li&gt;
-
-&lt;li&gt;Restore&lt;/li&gt;
-
-&lt;li&gt;Thresholding&lt;/li&gt;
-
-&lt;li&gt;Region Growing&lt;/li&gt;
-
-&lt;li&gt;Morthology (Dilation, Erosion, Opening, Closing)&lt;/li&gt;
-
-&lt;li&gt;Edge Detection (Laplacian, Sobel, Perwitt, Frei &amp;amp; Chen)&lt;/li&gt;
-
-&lt;li&gt;Drawing
-&lt;br&gt;
-&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
-&lt;img src=&#34;resources/2D_Processing.jpg&#34; alt=&#34;2D_Processing&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;3dprocessing&#34;&gt;3D processing&lt;/h3&gt;
-
-&lt;p&gt;內含功能&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Load DICOM stack&lt;/li&gt;
-
-&lt;li&gt;Save slice (axial, sagittal, coronal)&lt;/li&gt;
-
-&lt;li&gt;Colormap transform&lt;/li&gt;
-
-&lt;li&gt;Slider scrolling&lt;/li&gt;
-
-&lt;li&gt;Mouse hovering/clicking&lt;/li&gt;
-
-&lt;li&gt;Show DICOM info&lt;/li&gt;
-
-&lt;li&gt;Show slice index coordinate&lt;/li&gt;
-
-&lt;li&gt;3D volume reconstruction
-&lt;br&gt;
-&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
-&lt;img src=&#34;resources/3D_Processing.jpg&#34; alt=&#34;3D_Processing&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
-&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;3dvolumereconstruction&#34;&gt;3D volume reconstruction&lt;/h3&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
-    &lt;img src=&#34;resources/3D_Volume.jpg&#34; alt=&#34;3D_Volume&#34; width=&#34;480&#34; height=&#34;480&#34;&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;futureextension&#34;&gt;Future Extension&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;加入數據分析功能
-&gt;導入一些醫學知識，讓軟體有一些初步的分析功能（如有沒有骨折、腫瘤等等）&lt;/li&gt;
-
-&lt;li&gt;3D reconstruction改善
-&gt;更新volume重建算法，提升計算速度與還原度&lt;/li&gt;
-
-&lt;li&gt;3D image processing
-&gt;加入對3D voxel影像進行更複雜的影像處理功能&lt;/li&gt;
-
-&lt;li&gt;Make it distributable
-&gt;包裝成release版本，成為可轉散發軟體。希望能支援跨平台運作（window、macOS）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;howtouseit&#34;&gt;How to use it?&lt;/h2&gt;
-
-&lt;p&gt;Project root will be &lt;strong&gt;/src&lt;/strong&gt;, just clone it and run mainwindow.py.&lt;/p&gt;
-
-&lt;p&gt;Strictly follow the package version in requirements.txt is not necessary.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Spoken-Digit Recognizer</title>

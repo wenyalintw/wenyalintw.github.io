@@ -14,7 +14,25 @@
   </url>
   
   <url>
+    <loc>https://wenyalintw.github.io/tags/digital-speech-processing/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wenyalintw.github.io/tags/image-processing/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/tags/keras/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/tags/machine-learning/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -23,6 +41,17 @@
     <loc>https://wenyalintw.github.io/project/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/tags/pyqt/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/project/spoken-digit-recognizer/</loc>
+    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -35,17 +64,6 @@
     <loc>https://wenyalintw.github.io/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

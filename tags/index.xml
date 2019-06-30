@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Digital Speech Processing</title>
+      <link>https://wenyalintw.github.io/tags/digital-speech-processing/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/tags/digital-speech-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Image Processing</title>
       <link>https://wenyalintw.github.io/tags/image-processing/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
@@ -31,11 +40,29 @@
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>https://wenyalintw.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Keras</title>
+      <link>https://wenyalintw.github.io/tags/keras/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://wenyalintw.github.io/tags/demo/</guid>
+      <guid>https://wenyalintw.github.io/tags/keras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://wenyalintw.github.io/tags/machine-learning/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PyQt</title>
+      <link>https://wenyalintw.github.io/tags/pyqt/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/tags/pyqt/</guid>
       <description></description>
     </item>
     
