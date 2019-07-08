@@ -19,10 +19,14 @@
       
       <guid>https://wenyalintw.github.io/project/spoken-digit-recognizer/</guid>
       <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/microphone.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
   &lt;h2 align=&#34;center&#34;&gt;語音數字辨識專案 (Spoken-Digit Recognizer)&lt;/h2&gt;
   &lt;div align=&#34;center&#34;&gt;
     本project運用Keras建立Model，辨識使用者說的中/英數字，並使用GUI呈現。
   &lt;/div&gt;
+  &lt;br&gt;
 &lt;/p&gt;
 
 &lt;h2 id=&#34;demo&#34;&gt;先看段Demo吧！&lt;/h2&gt;

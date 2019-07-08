@@ -28,22 +28,14 @@
   &lt;/div&gt;
 &lt;/p&gt;
 
-&lt;p align=&#34;center&#34;&gt;
-     &lt;a href=#&gt;
-        &lt;img src=&#34;resources/schematic_1.png&#34; width=&#34;160&#34; height=&#34;132&#34;&gt;
-        &lt;img src=&#34;resources/schematic_2.png&#34; width=&#34;160&#34; height=&#34;132&#34;&gt;
-        &lt;img src=&#34;resources/schematic_3.png&#34; width=&#34;160&#34; height=&#34;132&#34;&gt;
-    &lt;/a&gt;
-&lt;/p&gt;
-
 &lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#application-demo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;a href=&#34;#built-with&#34;&gt;Built With&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#builtwith&#34;&gt;Built With&lt;/a&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
 
