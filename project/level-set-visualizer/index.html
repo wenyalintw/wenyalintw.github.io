@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.3.1">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Wen-Ya Lin">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Visualize image segmentation based on level set method.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://wenyalintw.github.io/project/level-set-visualizer/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#795548">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.606eb9b2be362f07f6a4abebcddb91c3.css">
+
+  
+
+  
+  
+  
+
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://wenyalintw.github.io/project/level-set-visualizer/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@wenyalintw">
+  <meta property="twitter:creator" content="@wenyalintw">
+  
+  <meta property="og:site_name" content="Wen-Ya Lin">
+  <meta property="og:url" content="https://wenyalintw.github.io/project/level-set-visualizer/">
+  <meta property="og:title" content="Level-Set-Visualizer | Wen-Ya Lin">
+  <meta property="og:description" content="Visualize image segmentation based on level set method."><meta property="og:image" content="https://wenyalintw.github.io/project/level-set-visualizer/featured.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-07-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-07-08T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143020107-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143020107-1');
+</script>
+
+  <title>Level-Set-Visualizer | Wen-Ya Lin</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Wen-Ya Lin</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#skills"><span>Skills</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Level-Set-Visualizer</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2019-07-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-07-08 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Jul 8, 2019</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://wenyalintw.github.io/project/level-set-visualizer/&amp;text=Level-Set-Visualizer" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://wenyalintw.github.io/project/level-set-visualizer/&amp;t=Level-Set-Visualizer" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Level-Set-Visualizer&amp;body=https://wenyalintw.github.io/project/level-set-visualizer/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://wenyalintw.github.io/project/level-set-visualizer/&amp;title=Level-Set-Visualizer" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Level-Set-Visualizer%20https://wenyalintw.github.io/project/level-set-visualizer/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://wenyalintw.github.io/project/level-set-visualizer/&amp;title=Level-Set-Visualizer" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/wenyalintw/Level-Set-Visualizer" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    View on Github
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p align="center">
+  <a href=#>
+    <img src="resources/heart.png" alt="Spoken-Digit Recognizer" width="96" height="96">
+  </a>
+  <h2 align="center">Level-Set Visualizer</h2>
+  <div align="center">
+    Visualize image segmentation based on level set method.
+  </div>
+</p>
+
+<p align="center">
+     <a href=#>
+        <img src="resources/schematic_1.png" width="160" height="132">
+        <img src="resources/schematic_2.png" width="160" height="132">
+        <img src="resources/schematic_3.png" width="160" height="132">
+    </a>
+</p>
+
+<h2 id="tableofcontents">Table of contents</h2>
+
+<ul>
+<li><a href="#application-demo">Application Demo</a></li>
+
+<li><a href="#introduction">Introduction</a></li>
+
+<li><a href="#built-with">Built With</a></li>
+
+<li><a href="#installation">Installation</a></li>
+
+<li><a href="#acknowledgments">Acknowledgments</a></li>
+</ul>
+
+<h2 id="applicationdemo">Application Demo</h2>
+
+<h3 id="levelsetvisualizerdemoyoutubehttpswwwyoutubecomwatchvutrr98jsrps"><a href="https://www.youtube.com/watch?v=uTrr98JsRps">Level-Set Visualizer – Demo (YouTube)</a></h3>
+
+<p align="center">
+<iframe width="720" height="480" src="https://www.youtube.com/embed/uTrr98JsRps">
+</iframe>
+</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>This application Perform image segmentation by following steps:</p>
+
+<ul>
+<li>Load Image &amp; Start Level-Set Mode</li>
+
+<li>Preprocessing</li>
+
+<li>Initial Contour</li>
+
+<li>Start Evolution</li>
+</ul>
+
+<h3 id="preprocessing">Preprocessing</h3>
+
+<ul>
+<li>Edge detection by <a href="https://itk.org/Doxygen/html/classitk_1_1CurvatureAnisotropicDiffusionImageFilter.html">Anisotropic Diffusion</a>, <a href="https://itk.org/Doxygen/html/classitk_1_1GradientMagnitudeRecursiveGaussianImageFilter.html">Gaussian Gradient</a>, <a href="https://itk.org/Doxygen/html/classitk_1_1SigmoidImageFilter.html">Sigmoid Scaling</a></li>
+
+<li>Control over some edge detection parameters</li>
+</ul>
+
+<p align="center">
+    <img src="resources/preprocessing.gif" alt="preprocessing" width="400" height="330">
+</p>
+
+<h3 id="initialcontour">Initial Contour</h3>
+
+<ul>
+<li>Done by <a href="https://itk.org/Doxygen/html/classitk_1_1FastMarchingImageFilter.html">Fast Marching</a>, support multiple bubbles</li>
+</ul>
+
+<p align="center">
+    <img src="resources/initial_contour.gif" alt="initial contour" width="400" height="330">
+</p>
+
+<h3 id="startevolution">Start Evolution</h3>
+
+<ul>
+<li>Support media-like control (play/pause/step/rewind) &amp; anchor iteration</li>
+
+<li>Control over 3 parameters based on <a href="https://itk.org/Doxygen/html/classitk_1_1GeodesicActiveContourLevelSetImageFilter.html">Geodesic Active Contour (GAC)</a></li>
+</ul>
+
+<p align="center">
+    <img src="resources/evolution.gif" alt="evolution.gif" width="400" height="330">
+</p>
+
+<h2 id="builtwith">Built With</h2>
+
+<ul>
+<li><a href="https://itk.org/ITK/resources/legacy_releases.html">ITK 4.12</a> - Image Processing Algorithms</li>
+
+<li><a href="https://vtk.org/download/">VTK 8.2</a> - Image Display</li>
+
+<li><a href="https://doc.qt.io/archives/qt-5.6/index.html">Qt 5.6</a> - GUI framework</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<pre><code class="sh language-sh">$ mkdir build
+$ cd build
+$ cmake ../src
+$ make -j4
+</code></pre>
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+
+<ul>
+<li>This application is inspired by <a href="http://www.itksnap.org/pmwiki/pmwiki.php">ITK-SNAP</a>.</li>
+
+<li>Processing pipeline &amp; <a href="https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/src/test.png">test.png</a> modified from <a href="https://itk.org/ITKExamples/src/Segmentation/LevelSets/SegmentWithGeodesicActiveContourLevelSet/Documentation.html">ITK GAC Example</a></li>
+
+<li><a href="https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/resources/heart.png">heart.png</a> modified from <a href="https://www.iconfinder.com/icons/44697/cardiology_heart_organ_icon">ICONFINDER</a></li>
+</ul>
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/dicom/">Dicom</a>
+  
+  <a class="badge badge-light" href="/tags/image-processing/">Image Processing</a>
+  
+  <a class="badge badge-light" href="/tags/c&#43;&#43;/">C&#43;&#43;</a>
+  
+  <a class="badge badge-light" href="/tags/qt/">Qt</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hu0559a1fd099f0cdc24d7c00e0099e845_877738_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://wenyalintw.github.io/">Wen-Ya Lin</a></h5>
+      <h6 class="card-subtitle">M.S. Student in Mechanical Engineering</h6>
+      <p class="card-text" itemprop="description">My research interests include Image Processing, Artificial Intelligence and Internet of Things.</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+          <li>
+            <a itemprop="sameAs" href="mailto:wenyalintw@gmail.com" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/wenyalintw" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.linkedin.com/in/wenyalintw/" target="_blank" rel="noopener">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/wenyalintw" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.80598a1dc7d6b3a6fc1a6321b4faaf74.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy;2019 Wen-Ya Lin &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
