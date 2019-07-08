@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wenyalintw.github.io/tags/cpp/</loc>
+    <lastmod>2019-07-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wenyalintw.github.io/tags/dicom/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -39,12 +45,6 @@
   
   <url>
     <loc>https://wenyalintw.github.io/</loc>
-    <lastmod>2019-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/tags/c&#43;&#43;/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
