@@ -71,7 +71,7 @@
 &lt;/ul&gt;
 
 &lt;p align=&#34;center&#34;&gt;
-    &lt;img src=&#34;resources/set_proxy.png&#34; alt=&#34;preprocessing&#34; width=&#34;485&#34; height=&#34;355&#34;&gt;
+    &lt;img src=&#34;resources/set_proxy.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
 &lt;/p&gt;
 
 &lt;h3 id=&#34;searchdownloadpatents&#34;&gt;Search &amp;amp; Download Patents&lt;/h3&gt;
@@ -79,7 +79,7 @@
 &lt;ul&gt;
 &lt;li&gt;Select an output directory to store downloaded/generated files&lt;/li&gt;
 
-&lt;li&gt;Search whatever you like (search terms&#39; format are the same as Google Patents)&lt;/li&gt;
+&lt;li&gt;Search whatever you like (search terms&#39; format same as Google Patents)&lt;/li&gt;
 
 &lt;li&gt;Download PDF files of searching results &amp;amp; their patent families&lt;/li&gt;
 &lt;/ul&gt;
@@ -87,7 +87,7 @@
 &lt;p&gt;PDF files and auto-generated &lt;code&gt;overview.md&lt;/code&gt; will then be stored in selected directory&lt;/p&gt;
 
 &lt;p align=&#34;center&#34;&gt;
-    &lt;img src=&#34;resources/search_download.png&#34; alt=&#34;preprocessing&#34; width=&#34;512&#34; height=&#34;374&#34;&gt;
+    &lt;img src=&#34;resources/search_download.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
 &lt;/p&gt;
 
 &lt;h3 id=&#34;filestructureofoutputdirectory&#34;&gt;File Structure of Output Directory&lt;/h3&gt;
@@ -152,7 +152,7 @@
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Ready to go!&lt;/li&gt;
+&lt;li&gt;Ready to go&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;cd src
