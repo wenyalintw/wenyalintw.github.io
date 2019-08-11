@@ -255,6 +255,14 @@ $ make -j4
 &lt;p&gt;Project root will be &lt;strong&gt;/src&lt;/strong&gt;, just clone it and run mainwindow.py.&lt;/p&gt;
 
 &lt;p&gt;Strictly follow the package version in requirements.txt is not necessary.&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Dicom-Viewer/blob/master/resources/brain.png&#34;&gt;brain.png&lt;/a&gt; licensed under &#34;CC BY 3.0&#34; downloaded from &lt;a href=&#34;https://www.iconfinder.com/icons/1609653/brain_organs_icon&#34;&gt;ICONFINDER&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt;3D volumn reconstruction modified from &lt;a href=&#34;https://www.raddq.com/dicom-processing-segmentation-visualization-in-python/&#34;&gt;Howard Chen&#39;s Post&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
