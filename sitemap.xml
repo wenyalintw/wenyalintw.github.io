@@ -134,11 +134,6 @@
   </url>
   
   <url>
-    <loc>https://wenyalintw.github.io/slide/readme/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wenyalintw.github.io/authors/</loc>
     <priority>0</priority>
   </url>
@@ -163,11 +158,6 @@
   
   <url>
     <loc>https://wenyalintw.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/slide/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
