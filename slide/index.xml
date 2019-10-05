@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on Wen-Ya Lin</title>
+    <link>https://wenyalintw.github.io/slide/</link>
+    <description>Recent content in Slides on Wen-Ya Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
+    
+	    <atom:link href="https://wenyalintw.github.io/slide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wenyalintw.github.io/slide/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/slide/readme/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;src/bell.png&#34; alt=&#34;Webaholic Reminder&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Webaholic Reminder&lt;/h2&gt;
+  &lt;h6 align=&#34;center&#34;&gt;––––– Chrome Extension –––––&lt;/h2&gt;
+	&lt;div align=&#34;center&#34;&gt;
+		Remind you to work when you spend too much time on the internet.
+	&lt;/div&gt;
+	&lt;div align=&#34;center&#34;&gt;
+		Currently available on &lt;a href=&#34;https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb&#34;&gt;Chrome Web Store&lt;/a&gt;.
+	&lt;/div&gt;
+&lt;/p&gt;
+
+
+## Table of contents
+* [Application Demo](#application-demo)
+* [Introduction](#introduction)
+* [Getting Started](#getting-started)
+* [Acknowledgments](#acknowledgments)
+
+## Application Demo
+### [Webaholic Reminder – Demo (YouTube)](https://youtu.be/vVIrdPcOeY0)
+
+## Introduction
+Are you a [Webaholic](https://www.urbandictionary.com/define.php?term=webaholic)?  
+If the answer is yes, this extension will help you quit &#34;web-addiction&#34; by two steps:
+
+&lt;!--This extension help you quit &#34;web-addiction&#34; by following procedure--&gt;
+
+&lt;!--* Set sites you are addicted to--&gt;
+* Set Sites &amp; Timeout
+* Annoying Reminding
+
+&lt;!--* Set timeout--&gt;
+&lt;!--* Extension will remind you every timeout you stay on those sites--&gt;
+
+&lt;!--* Extension will start the timer--&gt;
+
+
+&lt;!--This application scrape Google Patents by two steps:
+
+* Set Proxy (Optional)
+* Search &amp; Download Patents
+--&gt;
+### Set Sites &amp; Timeout
+* Set sites you are addicted to in [regex expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) (ex:  `youtube.com`, `reddit`, `https://facebook.com/*`)
+* Set timeout and idle time
+* Extension will count the time you spend on site if current url match the regex you set
+* Timer will pause if you go idle after &#34;Idle Time&#34;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/execute.png&#34; alt=&#34;execute&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+
+**＊＊＊ Important ＊＊＊**
+
+* All settings (including ON-OFF switch) will only apply to new page (including reload)
+* Existed page comply with old settings
+* Disambiguation - If browser &#34;load&#34; a page after setting, it is a new page
+
+### Annoying Reminding
+* Extension will remind you on &#34;Timeout&#34;
+* You&#39;ve got to choose stop wasting time or not
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind1.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+* If you click &#34;Cancel&#34;, extension will remind you after another timeout
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind2.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+* If you click &#34;OK&#34;, extension will close the tab for you
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind3.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+## Getting Started
+
+### For User
+
+* Just click [HERE](https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb) to install it
+&lt;!--* Just install it on [Chrome Web Store](#)--&gt;
+
+### For Developer
+&lt;!--Welcome to clone &amp; fork the repo and modify the code for study purpose
+but you are not authorize to publish another extension 很相像的 to chrome web store. --&gt;
+
+* Clone the repo
+ 
+```sh
+git clone https://github.com/wenyalintw/Webaholic-Reminder.git
+```
+
+* Go to `chrome://extensions/` and click `Load unpacked` to load `/src`
+* Play around with the code ⇄ reload
+
+## Acknowledgments
+* Timing function borrow and modified from [jasonzissman&#39;s repo: TimeMe.js](https://github.com/jasonzissman/TimeMe.js/)
+* Reference of apperance design - [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb) / [Google Translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb) / [FREE FRONTEND](https://freefrontend.com/css-input-text/) / [FVM](https://www.fabriziovanmarciano.com/button-styles/) / [CodePen](https://codepen.io/leoespsanto/pen/pEftw)
+
+###### MIT License (2019), Wen-Ya Lin</description>
+    </item>
+    
+  </channel>
+</rss>
