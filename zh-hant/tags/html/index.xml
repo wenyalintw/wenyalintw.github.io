@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on 林温雅</title>
+    <link>https://wenyalintw.github.io/zh-hant/tags/html/</link>
+    <description>Recent content in HTML on 林温雅</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>zh-Hant</language>
+    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
+    <lastBuildDate>Sat, 05 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://wenyalintw.github.io/zh-hant/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Webaholic-Reminder</title>
+      <link>https://wenyalintw.github.io/zh-hant/project/webaholic-reminder/</link>
+      <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/zh-hant/project/webaholic-reminder/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/bell.png&#34; alt=&#34;Webaholic Reminder&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Webaholic Reminder&lt;/h2&gt;
+  &lt;h6 align=&#34;center&#34;&gt;––––– Chrome Extension –––––&lt;/h2&gt;
+    &lt;div align=&#34;center&#34;&gt;
+        Remind you to work when you spend too much time on the internet.
+    &lt;/div&gt;
+    &lt;div align=&#34;center&#34;&gt;
+        Currently available on &lt;a href=&#34;https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb&#34;&gt;Chrome Web Store&lt;/a&gt;.
+    &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#gettingstarted&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;applicationdemo&#34;&gt;Application Demo&lt;/h2&gt;
+
+&lt;h3 id=&#34;webaholicreminderdemoyoutubehttpsyoutubevvirdpcoey0&#34;&gt;&lt;a href=&#34;https://youtu.be/vVIrdPcOeY0&#34;&gt;Webaholic Reminder – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/vVIrdPcOeY0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Are you a &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=webaholic&#34;&gt;Webaholic&lt;/a&gt;? &lt;br /&gt;
+If the answer is yes, this extension will help you quit &#34;web-addiction&#34; by two steps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set Sites &amp;amp; Timeout&lt;/li&gt;
+
+&lt;li&gt;Annoying Reminding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;setsitestimeout&#34;&gt;Set Sites &amp;amp; Timeout&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set sites you are addicted to in &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions&#34;&gt;regex expression&lt;/a&gt; (ex:  &lt;code&gt;youtube.com&lt;/code&gt;, &lt;code&gt;reddit&lt;/code&gt;, &lt;code&gt;https://facebook.com/*&lt;/code&gt;)&lt;/li&gt;
+
+&lt;li&gt;Set timeout and idle time&lt;/li&gt;
+
+&lt;li&gt;Extension will count the time you spend on site if current url match the regex you set&lt;/li&gt;
+
+&lt;li&gt;Timer will pause if you go idle after &#34;Idle Time&#34;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/execute.png&#34; alt=&#34;execute&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;＊＊＊ Important ＊＊＊&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All settings (including ON-OFF switch) will only apply to new page (including reload)&lt;/li&gt;
+
+&lt;li&gt;Existed page comply with old settings&lt;/li&gt;
+
+&lt;li&gt;Disambiguation - If browser &#34;load&#34; a page after setting, it is a new page&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;annoyingreminding&#34;&gt;Annoying Reminding&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Extension will remind you on &#34;Timeout&#34;&lt;/li&gt;
+
+&lt;li&gt;You&#39;ve got to choose stop wasting time or not&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind1.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you click &#34;Cancel&#34;, extension will remind you after another timeout&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind2.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;If you click &#34;OK&#34;, extension will close the tab for you&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind3.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;gettingstarted&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;h3 id=&#34;foruser&#34;&gt;For User&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Just click &lt;a href=&#34;https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb&#34;&gt;HERE&lt;/a&gt; to install it&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;fordeveloper&#34;&gt;For Developer&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clone the repo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;git clone https://github.com/wenyalintw/Webaholic-Reminder.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code&gt;chrome://extensions/&lt;/code&gt; and click &lt;code&gt;Load unpacked&lt;/code&gt; to load &lt;code&gt;/src&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;Play around with the code ⇄ reload&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Timing function borrow and modified from &lt;a href=&#34;https://github.com/jasonzissman/TimeMe.js/&#34;&gt;jasonzissman&#39;s repo: TimeMe.js&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Reference of apperance design - &lt;a href=&#34;https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb&#34;&gt;Adblock Plus&lt;/a&gt; / &lt;a href=&#34;https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb&#34;&gt;Google Translate&lt;/a&gt; / &lt;a href=&#34;https://freefrontend.com/css-input-text/&#34;&gt;FREE FRONTEND&lt;/a&gt; / &lt;a href=&#34;https://www.fabriziovanmarciano.com/button-styles/&#34;&gt;FVM&lt;/a&gt; / &lt;a href=&#34;https://codepen.io/leoespsanto/pen/pEftw&#34;&gt;CodePen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h6 id=&#34;mitlicense2019wenyalin&#34;&gt;MIT License (2019), Wen-Ya Lin&lt;/h6&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

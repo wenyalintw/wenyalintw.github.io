@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scrapping on 林温雅</title>
+    <link>https://wenyalintw.github.io/zh-hant/tags/scrapping/</link>
+    <description>Recent content in Scrapping on 林温雅</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>zh-Hant</language>
+    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
+    <lastBuildDate>Sun, 11 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://wenyalintw.github.io/zh-hant/tags/scrapping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Google-Patents-Scraper Google</title>
+      <link>https://wenyalintw.github.io/zh-hant/project/google-patents-scraper/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/zh-hant/project/google-patents-scraper/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/spider.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Google Patents Scraper&lt;/h2&gt;
+    &lt;div align=&#34;center&#34;&gt;
+      (1) Automatically download all PDF files of searching results &amp; their patent families.
+  &lt;/div&gt;
+    &lt;div align=&#34;center&#34;&gt;
+    (2) Generate an overview report of searching results.
+  &lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#builtwith&#34;&gt;Built With&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#gettingstarted&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;applicationdemo&#34;&gt;Application Demo&lt;/h2&gt;
+
+&lt;h3 id=&#34;googlepatentsscraperdemoyoutubehttpsyoutubehrl3chpxbio&#34;&gt;&lt;a href=&#34;https://youtu.be/HRl3ChPxbIo&#34;&gt;Google Patents Scraper – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/HRl3ChPxbIo&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;This application scrape Google Patents by two steps:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set Proxy (Optional)&lt;/li&gt;
+
+&lt;li&gt;Search &amp;amp; Download Patents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;setproxyoptional&#34;&gt;Set Proxy (Optional)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Set proxy to avoid current ip blocked by Google Patents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/set_proxy.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;searchdownloadpatents&#34;&gt;Search &amp;amp; Download Patents&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Select an output directory to store downloaded/generated files&lt;/li&gt;
+
+&lt;li&gt;Search whatever you like (search terms&#39; format same as Google Patents)&lt;/li&gt;
+
+&lt;li&gt;Download PDF files of searching results &amp;amp; their patent families&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PDF files and auto-generated &lt;code&gt;overview.md&lt;/code&gt; will then be stored in selected directory&lt;/p&gt;
+
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/search_download.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&#34;filestructureofoutputdirectory&#34;&gt;File Structure of Output Directory&lt;/h3&gt;
+
+&lt;pre&gt;
+├── PDFs
+│   ├── CN104321947A.pdf
+│   ├── ...
+│   └── readme.txt
+├── Family_PDFs
+│   ├── CN104321947A&#39;s\ Family
+│   │   ├── EP2850716B1.pdf
+│   │   ├── ...
+│   │   └── readme.txt
+│   ├── ...
+│   └── ...
+└── overview.md
+&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Output directory of demo located at &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/Demo_outdir&#34;&gt;Demo_outdir&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/Demo_outdir/overview.md&#34;&gt;overview.md&lt;/a&gt; represents the summary of completed searching&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;builtwith&#34;&gt;Built With&lt;/h2&gt;
+
+&lt;p&gt;Modules besides python built-ins&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Web Scarping - &lt;a href=&#34;https://www.seleniumhq.org/&#34;&gt;Selenium&lt;/a&gt; / &lt;a href=&#34;https://www.crummy.com/software/BeautifulSoup/&#34;&gt;Beautiful Soup&lt;/a&gt; / &lt;a href=&#34;https://2.python-requests.org//en/master/&#34;&gt;requests&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;GUI framework - &lt;a href=&#34;https://pypi.org/project/PyQt5/&#34;&gt;PyQt5&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Others - &lt;a href=&#34;https://github.com/hellysmile/fake-useragent&#34;&gt;fake-useragent&lt;/a&gt; / &lt;a href=&#34;https://pypi.org/project/tqdm/&#34;&gt;tqdm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;gettingstarted&#34;&gt;Getting Started&lt;/h2&gt;
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Download a &lt;a href=&#34;https://chromedriver.chromium.org/&#34;&gt;ChromeDriver&lt;/a&gt; which correspond with your Chrome version&lt;/li&gt;
+
+&lt;li&gt;Replace the one in &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/src/resources&#34;&gt;src/resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Clone the repo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;git clone https://github.com/wenyalintw/Google-Patents-Scraper.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install required modules listed in &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/requirements.txt&#34;&gt;requirements.txt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;pip install -r /path/to/requirements.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ready to go&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;cd src
+python main.py
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Checking process of proxies modified from &lt;a href=&#34;https://github.com/ApsOps/proxy-checker&#34;&gt;ApsOps&#39;s repo&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/src/resources/iconfinder_search_461380.png&#34;&gt;search.png&lt;/a&gt; licensed under &#34;CC BY 3.0&#34; downloaded from &lt;a href=&#34;https://www.iconfinder.com/icons/1609653/brain_organs_icon&#34;&gt;ICONFINDER&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,24 +6,64 @@
     <loc>https://wenyalintw.github.io/tags/css/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/css/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/html/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/html/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/html/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/javascript/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/javascript/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/project/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/"
+                />
   </url>
   
   <url>
@@ -46,11 +86,31 @@
     <loc>https://wenyalintw.github.io/tags/web/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/web/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/web/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/project/webaholic-reminder/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/webaholic-reminder/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/webaholic-reminder/"
+                />
   </url>
   
   <url>
@@ -72,85 +132,235 @@
   <url>
     <loc>https://wenyalintw.github.io/project/google-patents-scraper/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/google-patents-scraper/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/google-patents-scraper/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/patent/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/patent/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/patent/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/python/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/python/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/qt/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/qt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/qt/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/scrapping/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/scrapping/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/scrapping/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/cpp/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/cpp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/cpp/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/dicom/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/dicom/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/dicom/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/image-processing/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/image-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/image-processing/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/project/level-set-visualizer/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/level-set-visualizer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/level-set-visualizer/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/project/dicom-viewer/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/dicom-viewer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/dicom-viewer/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/digital-speech-processing/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/digital-speech-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/digital-speech-processing/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/keras/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/keras/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/keras/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/tags/machine-learning/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/machine-learning/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/project/spoken-digit-recognizer/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/project/spoken-digit-recognizer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/project/spoken-digit-recognizer/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/authors/admin/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/authors/admin/"
+                />
   </url>
   
   <url>
@@ -185,6 +395,16 @@
   
   <url>
     <loc>https://wenyalintw.github.io/post/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/post/"
+                />
   </url>
   
   <url>
@@ -204,10 +424,30 @@
   
   <url>
     <loc>https://wenyalintw.github.io/publication/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/publication/"
+                />
   </url>
   
   <url>
     <loc>https://wenyalintw.github.io/talk/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/talk/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/talk/"
+                />
   </url>
   
 </urlset>
