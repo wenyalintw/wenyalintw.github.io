@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://wenyalintw.github.io/zh-hant/authors/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/zh-hant/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/zh-hant/publication_types/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/publication_types/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/zh-hant/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/zh-hant/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/"
+                />
+  </url>
+  
+</urlset>
