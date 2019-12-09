@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Keras on Wen-Ya Lin</title>
+    <link>https://wenyalintw.github.io/zh/tags/keras/</link>
+    <description>Recent content in Keras on Wen-Ya Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>zh-Hans</language>
+    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
+    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://wenyalintw.github.io/zh/tags/keras/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spoken-Digit Recognizer</title>
+      <link>https://wenyalintw.github.io/zh/project/spoken-digit-recognizer/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/zh/project/spoken-digit-recognizer/</guid>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/microphone.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;語音數字辨識專案 (Spoken-Digit Recognizer)&lt;/h2&gt;
+  &lt;div align=&#34;center&#34;&gt;
+    本project運用Keras建立Model，辨識使用者說的中/英數字，並使用GUI呈現。
+  &lt;/div&gt;
+  &lt;br&gt;
+&lt;/p&gt;
+
+&lt;h2 id=&#34;demo&#34;&gt;先看段Demo吧！&lt;/h2&gt;
+
+&lt;h3 id=&#34;spokendigitrecognizerdemoyoutubehttpswwwyoutubecomwatchv_ykum1dxpjm&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_yKum1DxPJM&#34;&gt;Spoken-Digit Recognizer – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/_yKum1DxPJM&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Demo詳細介紹請點連結&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Demo_doc.ipynb&#34;&gt;(Detailed) Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;所有使用data皆置於&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/dataset.rar&#34;&gt;dataset.rar&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;&#34;&gt;英文&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pannous/tensorflow-speech-recognition?fbclid=IwAR1tThhKhbMM_BnKE4SK16qcbuGdw1gJw7iWVVyEhDk9vZFF5Z8E6rjuWUs&#34;&gt;pannous on github&lt;/a&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;連結內spoken&lt;em&gt;numbers&lt;/em&gt;pcm.tar含2400筆.wav檔，為15位不同人唸英文數字(0~9)的單數字音檔(160/人)&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;3位contributer每人自錄160筆，與上述相加共2880筆&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;-1&#34;&gt;中文&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;3位contributer每人自錄500筆，共1500筆
+
+
+&lt;ul&gt;
+&lt;li&gt;每筆data為中文數字數字0~9單數字音檔，每人一個數字錄50筆&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;-2&#34;&gt;目標&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;使用者對麥克風説一串中/英文數字(0~9)，程式能辨識使用者說了哪些數字  &lt;/li&gt;
+
+&lt;li&gt;使用生成對抗網路GAN來生成音檔，即讓程式產出數字0~9的音檔&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
+
+&lt;p&gt;對目標1，先將包含多數字的音檔分割，再使用不同種model來辨識，詳細介紹請點連結&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/split_audio.ipynb&#34;&gt;(Detailed) Split Audio&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Spectrogram_CNN_doc.ipynb&#34;&gt;(Detailed) Spectrogram + CNN&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/MFCC_RNN_doc.ipynb&#34;&gt;(Detailed) MFCC + RNN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;對目標2，使用inverse-STFT方式，詳細介紹請點連結&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/GAN_doc.ipynb&#34;&gt;(Detailed) GAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;-3&#34;&gt;問題討論&lt;/h2&gt;
+
+&lt;h3 id=&#34;1&#34;&gt;1. 聲紋影響&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;- 一個沒有經過我們model訓練過的人聲，若進行辨識測驗時的平均正確率會較低
+- 我們認為這和聲紋息息相關，也就是同樣的字由不同人發聲的訊號頻譜存在差異
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;2&#34;&gt;2. 中/英文&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;- 我們初期是以英文數字為輸入音訊，後期則發現英文其實在發音上相較中文有更多的變化性，如某些子音的發音屬於清音，會較容易被誤判為靜音
+- 英文對於發音並沒有制式的音調規則，例如有些字會因語氣不同而音調不同，這導致我們model的辨識正確率並不理想
+- 後來我們選擇嘗試中文，由於中文絕大多數發音是濁音，且抑揚頓挫已有明確定義，因此訓練出的model辨識正確率果然如我們預期，有明顯的提升
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;contributors&#34;&gt;Contributors&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/wenyalintw&#34;&gt;WenYa Lin&lt;/a&gt;、&lt;a href=&#34;https://github.com/ChungYuanHsu&#34;&gt;ChungYuan Hsu&lt;/a&gt;、&lt;a href=&#34;https://github.com/r07522749&#34;&gt;JauhHsiang Lan&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

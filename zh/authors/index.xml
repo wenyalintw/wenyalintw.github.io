@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Wen-Ya Lin</title>
+    <link>https://wenyalintw.github.io/zh/authors/</link>
+    <description>Recent content in Authors on Wen-Ya Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>zh-Hans</language>
+    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
+    
+	    <atom:link href="https://wenyalintw.github.io/zh/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wenyalintw.github.io/zh/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenyalintw.github.io/zh/authors/admin/</guid>
+      <description>&lt;p&gt;測試 I am a M.S. Student in Mechanical Engineering at National Taiwan University. My interdisciplinary interests including IOT, AI and image processing. Recently, my research focus on medical image segementation.&lt;/p&gt;
+
+&lt;p&gt;Feel free to contact me for any reason, it will be my pleasure to hear from you. Have a nice day!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
