@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Wen-Ya Lin</title>
+    <title>Authors | Wen-Ya Lin</title>
     <link>https://wenyalintw.github.io/zh-hant/authors/</link>
-    <description>Recent content in Authors on Wen-Ya Lin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>zh-Hant</language>
-    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
-    
-	    <atom:link href="https://wenyalintw.github.io/zh-hant/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://wenyalintw.github.io/zh-hant/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hant</language><copyright>©2019 Wen-Ya Lin</copyright>
+    <image>
+      <url>https://wenyalintw.github.io/img/sharing_image.jpg</url>
+      <title>Authors</title>
+      <link>https://wenyalintw.github.io/zh-hant/authors/</link>
+    </image>
     
     <item>
       <title></title>
       <link>https://wenyalintw.github.io/zh-hant/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wenyalintw.github.io/zh-hant/authors/admin/</guid>
       <description>&lt;p&gt;目前就讀於臺灣大學機械工程研究所的碩士生，興趣包括但不限於影像處理、人工智慧和物聯網等領域。當前研究專注於AI於醫學影像之應用。&lt;/p&gt;
-
 &lt;p&gt;對任何工作、研究機會抱持開放態度，歡迎隨時來信交流！&lt;/p&gt;
 </description>
     </item>

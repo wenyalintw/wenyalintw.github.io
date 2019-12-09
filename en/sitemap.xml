@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://wenyalintw.github.io/tags/css/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -21,7 +20,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/html/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -37,7 +35,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/javascript/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -53,7 +50,6 @@
   <url>
     <loc>https://wenyalintw.github.io/project/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -69,7 +65,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -85,7 +80,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/web/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -116,7 +110,6 @@
   <url>
     <loc>https://wenyalintw.github.io/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -147,7 +140,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/patent/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -163,7 +155,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/python/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -179,7 +170,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/qt/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -195,7 +185,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/scrapping/</loc>
     <lastmod>2019-08-11T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -211,7 +200,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/cpp/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -227,7 +215,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/dicom/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -243,7 +230,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/image-processing/</loc>
     <lastmod>2019-07-08T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -289,7 +275,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/digital-speech-processing/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -305,7 +290,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/keras/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -321,7 +305,6 @@
   <url>
     <loc>https://wenyalintw.github.io/tags/machine-learning/</loc>
     <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -365,7 +348,6 @@
   
   <url>
     <loc>https://wenyalintw.github.io/authors/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -380,7 +362,6 @@
   
   <url>
     <loc>https://wenyalintw.github.io/categories/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
@@ -409,7 +390,6 @@
   
   <url>
     <loc>https://wenyalintw.github.io/publication_types/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"

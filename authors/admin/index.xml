@@ -3,25 +3,14 @@
   <channel>
     <title>Wen-Ya Lin</title>
     <link>https://wenyalintw.github.io/authors/admin/</link>
-    <description>Recent content on Wen-Ya Lin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
-    
-	    <atom:link href="https://wenyalintw.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title></title>
+      <atom:link href="https://wenyalintw.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wen-Ya Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019 Wen-Ya Lin</copyright>
+    <image>
+      <url>https://wenyalintw.github.io/img/sharing_image.jpg</url>
+      <title>Wen-Ya Lin</title>
       <link>https://wenyalintw.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wenyalintw.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a M.S. Student in Mechanical Engineering at National Taiwan University. My interdisciplinary interests including IOT, AI and image processing. Recently, my research focus on AI application in medical imaging.&lt;/p&gt;
-
-&lt;p&gt;Feel free to contact me for any reason, it will be my pleasure to hear from you. Have a nice day!&lt;/p&gt;
-</description>
-    </item>
+    </image>
     
   </channel>
 </rss>

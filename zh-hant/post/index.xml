@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Wen-Ya Lin</title>
+    <title>Posts | Wen-Ya Lin</title>
     <link>https://wenyalintw.github.io/zh-hant/post/</link>
-    <description>Recent content in Posts on Wen-Ya Lin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>zh-Hant</language>
-    <copyright>&amp;copy;{year} Wen-Ya Lin</copyright>
-    
-	    <atom:link href="https://wenyalintw.github.io/zh-hant/post/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://wenyalintw.github.io/zh-hant/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hant</language><copyright>©2019 Wen-Ya Lin</copyright>
+    <image>
+      <url>https://wenyalintw.github.io/img/sharing_image.jpg</url>
+      <title>Posts</title>
+      <link>https://wenyalintw.github.io/zh-hant/post/</link>
+    </image>
     
   </channel>
 </rss>
