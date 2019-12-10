@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wenyalintw.github.io/authors/admin/</loc>
+    <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://wenyalintw.github.io/authors/</loc>
+    <lastmod>2019-10-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://wenyalintw.github.io/zh-hant/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://wenyalintw.github.io/authors/"
+                />
+  </url>
+  
+  <url>
     <loc>https://wenyalintw.github.io/tags/css/</loc>
     <lastmod>2019-10-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -254,36 +284,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://wenyalintw.github.io/project/level-set-visualizer/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/authors/admin/</loc>
-    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="https://wenyalintw.github.io/zh-hant/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wenyalintw.github.io/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://wenyalintw.github.io/authors/</loc>
-    <lastmod>2019-01-27T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="https://wenyalintw.github.io/zh-hant/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://wenyalintw.github.io/authors/"
                 />
   </url>
   
