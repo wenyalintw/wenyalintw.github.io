@@ -17,51 +17,96 @@
       <link>https://wenyalintw.github.io/project/webaholic-reminder/</link>
       <pubDate>Sat, 05 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://wenyalintw.github.io/project/webaholic-reminder/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/bell.png&#34; alt=&#34;Webaholic Reminder&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Webaholic Reminder&lt;/h2&gt;
+  &lt;h6 align=&#34;center&#34;&gt;––––– Chrome Extension –––––&lt;/h2&gt;
+    &lt;div align=&#34;center&#34;&gt;
+        Remind you to work when you spend too much time on the internet.
+    &lt;/div&gt;
+    &lt;div align=&#34;center&#34;&gt;
+        Currently available on &lt;a href=&#34;https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb&#34;&gt;Chrome Web Store&lt;/a&gt;.
+    &lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gettingstarted&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applicationdemo&#34;&gt;Application Demo&lt;/h2&gt;
+&lt;h3 id=&#34;webaholicreminderdemoyoutubehttpsyoutubevvirdpcoey0&#34;&gt;&lt;a href=&#34;https://youtu.be/vVIrdPcOeY0&#34;&gt;Webaholic Reminder – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/vVIrdPcOeY0&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Are you a &lt;a href=&#34;https://www.urbandictionary.com/define.php?term=webaholic&#34;&gt;Webaholic&lt;/a&gt;? &lt;br /&gt;
+If the answer is yes, this extension will help you quit &#34;web-addiction&#34; by two steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set Sites &amp;amp; Timeout&lt;/li&gt;
+&lt;li&gt;Annoying Reminding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setsitestimeout&#34;&gt;Set Sites &amp;amp; Timeout&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set sites you are addicted to in &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions&#34;&gt;regex expression&lt;/a&gt; (ex:  &lt;code&gt;youtube.com&lt;/code&gt;, &lt;code&gt;reddit&lt;/code&gt;, &lt;code&gt;https://facebook.com/*&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Set timeout and idle time&lt;/li&gt;
+&lt;li&gt;Extension will count the time you spend on site if current url match the regex you set&lt;/li&gt;
+&lt;li&gt;Timer will pause if you go idle after &#34;Idle Time&#34;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/execute.png&#34; alt=&#34;execute&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;＊＊＊ Important ＊＊＊&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All settings (including ON-OFF switch) will only apply to new page (including reload)&lt;/li&gt;
+&lt;li&gt;Existed page comply with old settings&lt;/li&gt;
+&lt;li&gt;Disambiguation - If browser &#34;load&#34; a page after setting, it is a new page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;annoyingreminding&#34;&gt;Annoying Reminding&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Extension will remind you on &#34;Timeout&#34;&lt;/li&gt;
+&lt;li&gt;You&#39;ve got to choose stop wasting time or not&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind1.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you click &#34;Cancel&#34;, extension will remind you after another timeout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind2.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If you click &#34;OK&#34;, extension will close the tab for you&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/remind3.png&#34; alt=&#34;remind&#34; width=&#34;400&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;gettingstarted&#34;&gt;Getting Started&lt;/h2&gt;
+&lt;h3 id=&#34;foruser&#34;&gt;For User&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Just click &lt;a href=&#34;https://chrome.google.com/webstore/detail/webaholic-reminder/ilidphpahmdlgjlcejdjhbeodnjhdhbb&#34;&gt;HERE&lt;/a&gt; to install it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;fordeveloper&#34;&gt;For Developer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Clone the repo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;git clone https://github.com/wenyalintw/Webaholic-Reminder.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Go to &lt;code&gt;chrome://extensions/&lt;/code&gt; and click &lt;code&gt;Load unpacked&lt;/code&gt; to load &lt;code&gt;/src&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Play around with the code ⇄ reload&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Timing function borrow and modified from &lt;a href=&#34;https://github.com/jasonzissman/TimeMe.js/&#34;&gt;jasonzissman&#39;s repo: TimeMe.js&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reference of apperance design - &lt;a href=&#34;https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb&#34;&gt;Adblock Plus&lt;/a&gt; / &lt;a href=&#34;https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb&#34;&gt;Google Translate&lt;/a&gt; / &lt;a href=&#34;https://freefrontend.com/css-input-text/&#34;&gt;FREE FRONTEND&lt;/a&gt; / &lt;a href=&#34;https://www.fabriziovanmarciano.com/button-styles/&#34;&gt;FVM&lt;/a&gt; / &lt;a href=&#34;https://codepen.io/leoespsanto/pen/pEftw&#34;&gt;CodePen&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6 id=&#34;mitlicense2019wenyalin&#34;&gt;MIT License (2019), Wen-Ya Lin&lt;/h6&gt;</description>
     </item>
     
     <item>
@@ -69,57 +114,109 @@
       <link>https://wenyalintw.github.io/project/google-patents-scraper/</link>
       <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://wenyalintw.github.io/project/google-patents-scraper/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/spider.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Google Patents Scraper&lt;/h2&gt;
+    &lt;div align=&#34;center&#34;&gt;
+      (1) Automatically download all PDF files of searching results &amp; their patent families.
+  &lt;/div&gt;
+    &lt;div align=&#34;center&#34;&gt;
+    (2) Generate an overview report of searching results.
+  &lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#builtwith&#34;&gt;Built With&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#gettingstarted&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applicationdemo&#34;&gt;Application Demo&lt;/h2&gt;
+&lt;h3 id=&#34;googlepatentsscraperdemoyoutubehttpsyoutubehrl3chpxbio&#34;&gt;&lt;a href=&#34;https://youtu.be/HRl3ChPxbIo&#34;&gt;Google Patents Scraper – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/HRl3ChPxbIo&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This application scrape Google Patents by two steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set Proxy (Optional)&lt;/li&gt;
+&lt;li&gt;Search &amp;amp; Download Patents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setproxyoptional&#34;&gt;Set Proxy (Optional)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set proxy to avoid current ip blocked by Google Patents&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/set_proxy.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;searchdownloadpatents&#34;&gt;Search &amp;amp; Download Patents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Select an output directory to store downloaded/generated files&lt;/li&gt;
+&lt;li&gt;Search whatever you like (search terms&#39; format same as Google Patents)&lt;/li&gt;
+&lt;li&gt;Download PDF files of searching results &amp;amp; their patent families&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;PDF files and auto-generated &lt;code&gt;overview.md&lt;/code&gt; will then be stored in selected directory&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/search_download.png&#34; alt=&#34;preprocessing&#34; width=&#34;600&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;filestructureofoutputdirectory&#34;&gt;File Structure of Output Directory&lt;/h3&gt;
+&lt;pre&gt;
+├── PDFs
+│   ├── CN104321947A.pdf
+│   ├── ...
+│   └── readme.txt
+├── Family_PDFs
+│   ├── CN104321947A&#39;s\ Family
+│   │   ├── EP2850716B1.pdf
+│   │   ├── ...
+│   │   └── readme.txt
+│   ├── ...
+│   └── ...
+└── overview.md
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Output directory of demo located at &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/Demo_outdir&#34;&gt;Demo_outdir&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/Demo_outdir/overview.md&#34;&gt;overview.md&lt;/a&gt; represents the summary of completed searching&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;builtwith&#34;&gt;Built With&lt;/h2&gt;
+&lt;p&gt;Modules besides python built-ins&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Web Scarping - &lt;a href=&#34;https://www.seleniumhq.org/&#34;&gt;Selenium&lt;/a&gt; / &lt;a href=&#34;https://www.crummy.com/software/BeautifulSoup/&#34;&gt;Beautiful Soup&lt;/a&gt; / &lt;a href=&#34;https://2.python-requests.org//en/master/&#34;&gt;requests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GUI framework - &lt;a href=&#34;https://pypi.org/project/PyQt5/&#34;&gt;PyQt5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Others - &lt;a href=&#34;https://github.com/hellysmile/fake-useragent&#34;&gt;fake-useragent&lt;/a&gt; / &lt;a href=&#34;https://pypi.org/project/tqdm/&#34;&gt;tqdm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;gettingstarted&#34;&gt;Getting Started&lt;/h2&gt;
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Download a &lt;a href=&#34;https://chromedriver.chromium.org/&#34;&gt;ChromeDriver&lt;/a&gt; which correspond with your Chrome version&lt;/li&gt;
+&lt;li&gt;Replace the one in &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/tree/master/src/resources&#34;&gt;src/resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Clone the repo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;git clone https://github.com/wenyalintw/Google-Patents-Scraper.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Install required modules listed in &lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/requirements.txt&#34;&gt;requirements.txt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;pip install -r /path/to/requirements.txt
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Ready to go&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;cd src
+python main.py
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Checking process of proxies modified from &lt;a href=&#34;https://github.com/ApsOps/proxy-checker&#34;&gt;ApsOps&#39;s repo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Google-Patents-Scraper/blob/master/src/resources/iconfinder_search_461380.png&#34;&gt;search.png&lt;/a&gt; licensed under &#34;CC BY 3.0&#34; downloaded from &lt;a href=&#34;https://www.iconfinder.com/icons/1609653/brain_organs_icon&#34;&gt;ICONFINDER&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -127,43 +224,79 @@
       <link>https://wenyalintw.github.io/project/level-set-visualizer/</link>
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://wenyalintw.github.io/project/level-set-visualizer/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/heart.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;Level-Set Visualizer&lt;/h2&gt;
+  &lt;div align=&#34;center&#34;&gt;
+    Visualize image segmentation based on level set method.
+  &lt;/div&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;tableofcontents&#34;&gt;Table of contents&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#applicationdemo&#34;&gt;Application Demo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#builtwith&#34;&gt;Built With&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#acknowledgments&#34;&gt;Acknowledgments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;applicationdemo&#34;&gt;Application Demo&lt;/h2&gt;
+&lt;h3 id=&#34;levelsetvisualizerdemoyoutubehttpswwwyoutubecomwatchvutrr98jsrps&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=uTrr98JsRps&#34;&gt;Level-Set Visualizer – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;720&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/uTrr98JsRps&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This application perform image segmentation by following steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Load Image &amp;amp; Start Level-Set Mode&lt;/li&gt;
+&lt;li&gt;Preprocessing&lt;/li&gt;
+&lt;li&gt;Initial Contour&lt;/li&gt;
+&lt;li&gt;Start Evolution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;preprocessing&#34;&gt;Preprocessing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Edge detection by &lt;a href=&#34;https://itk.org/Doxygen/html/classitk_1_1CurvatureAnisotropicDiffusionImageFilter.html&#34;&gt;Anisotropic Diffusion&lt;/a&gt;, &lt;a href=&#34;https://itk.org/Doxygen/html/classitk_1_1GradientMagnitudeRecursiveGaussianImageFilter.html&#34;&gt;Gaussian Gradient&lt;/a&gt;, &lt;a href=&#34;https://itk.org/Doxygen/html/classitk_1_1SigmoidImageFilter.html&#34;&gt;Sigmoid Scaling&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Control over some edge detection parameters&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/preprocessing.gif&#34; alt=&#34;preprocessing&#34; width=&#34;400&#34; height=&#34;330&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;initialcontour&#34;&gt;Initial Contour&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Done by &lt;a href=&#34;https://itk.org/Doxygen/html/classitk_1_1FastMarchingImageFilter.html&#34;&gt;Fast Marching&lt;/a&gt;, support multiple bubbles&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/initial_contour.gif&#34; alt=&#34;initial contour&#34; width=&#34;400&#34; height=&#34;330&#34;&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;startevolution&#34;&gt;Start Evolution&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Support media-like control (play/pause/step/rewind) &amp;amp; anchor iteration&lt;/li&gt;
+&lt;li&gt;Control over 3 parameters based on &lt;a href=&#34;https://itk.org/Doxygen/html/classitk_1_1GeodesicActiveContourLevelSetImageFilter.html&#34;&gt;Geodesic Active Contour (GAC)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+    &lt;img src=&#34;resources/evolution.gif&#34; alt=&#34;evolution.gif&#34; width=&#34;400&#34; height=&#34;330&#34;&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;builtwith&#34;&gt;Built With&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://itk.org/ITK/resources/legacy_releases.html&#34;&gt;ITK 4.12&lt;/a&gt; - Image Processing Algorithms (w/ module &lt;code&gt;ITKVtkGlue&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vtk.org/download/&#34;&gt;VTK 8.2&lt;/a&gt; - Image Display&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://doc.qt.io/archives/qt-5.6/index.html&#34;&gt;Qt 5.6&lt;/a&gt; - GUI framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Before running the following command, modify &lt;code&gt;QT_HOME&lt;/code&gt;, &lt;code&gt;ITK_DIR&lt;/code&gt;, and &lt;code&gt;VTK_DIR&lt;/code&gt; in &lt;a href=&#34;https://github.com/wenyalintw/Level-Set-Visualizer/blob/master/src/CMakeLists.txt&#34;&gt;CMakeLists.txt&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;sh language-sh&#34;&gt;$ mkdir build
+$ cd build
+$ cmake ../src
+$ make -j4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;This application is inspired by &lt;a href=&#34;http://www.itksnap.org/pmwiki/pmwiki.php&#34;&gt;ITK-SNAP&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Processing pipeline &amp;amp; &lt;a href=&#34;https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/src/test.png&#34;&gt;test.png&lt;/a&gt; modified from &lt;a href=&#34;https://itk.org/ITKExamples/src/Segmentation/LevelSets/SegmentWithGeodesicActiveContourLevelSet/Documentation.html&#34;&gt;ITK GAC Example&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Level-Set-Visualizer/tree/master/resources/heart.png&#34;&gt;heart.png&lt;/a&gt; modified from &lt;a href=&#34;https://www.iconfinder.com/icons/44697/cardiology_heart_organ_icon&#34;&gt;ICONFINDER&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -171,52 +304,89 @@
       <link>https://wenyalintw.github.io/project/dicom-viewer/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://wenyalintw.github.io/project/dicom-viewer/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+    &lt;img src=&#34;resources/brain.png&#34; alt=&#34;Dicom Viewer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;簡易醫學影像GUI (Dicom Viewer)&lt;/h2&gt;
+  &lt;p align=&#34;center&#34;&gt;能顯示 2D/3D Dicom影像的應用&lt;/p&gt;
+  &lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;本project旨在利用python+Qt製作簡易的醫學影像GUI，提供一個平台，能在上面使用python開發測試各式影像處理功能，尤其是針對3D之Dicom Stack！&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;先看兩段Demo吧&lt;/h2&gt;
+&lt;h3 id=&#34;ahrefhttpswwwyoutubecomwatchvtoxcznnnz4cfeatureyoutube2dimageprocessinga&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=TOXczNnnZ4c&amp;amp;feature=youtu.be&#34;&gt;2D Image Processing&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/TOXczNnnZ4c&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;ahrefhttpswwwyoutubecomwatchvns75aqovossfeatureyoutube3dimageprocessinga&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=NS75AQOVOss&amp;amp;feature=youtu.be&#34;&gt;3D Image Processing&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/NS75AQOVOss&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;&#34;&gt;執行畫面&lt;/h2&gt;
+&lt;p&gt;執行程式會打開Main Window，左上角的選單有2D processing和3D processing兩個子選項，其中後者embed有3D volume reconstruction功能&lt;/p&gt;
+&lt;h3 id=&#34;mainwindow&#34;&gt;Main Window&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+    &lt;img src=&#34;resources/mainwindow.png&#34; alt=&#34;mainwindow&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2dprocessing&#34;&gt;2D processing&lt;/h3&gt;
+&lt;p&gt;內含功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Load Image (含*.dcm)&lt;/li&gt;
+&lt;li&gt;Save Image&lt;/li&gt;
+&lt;li&gt;Convert to gray scale&lt;/li&gt;
+&lt;li&gt;Restore&lt;/li&gt;
+&lt;li&gt;Thresholding&lt;/li&gt;
+&lt;li&gt;Region Growing&lt;/li&gt;
+&lt;li&gt;Morthology (Dilation, Erosion, Opening, Closing)&lt;/li&gt;
+&lt;li&gt;Edge Detection (Laplacian, Sobel, Perwitt, Frei &amp;amp; Chen)&lt;/li&gt;
+&lt;li&gt;Drawing
+&lt;br&gt;
+&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+&lt;img src=&#34;resources/2D_Processing.jpg&#34; alt=&#34;2D_Processing&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3dprocessing&#34;&gt;3D processing&lt;/h3&gt;
+&lt;p&gt;內含功能&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Load DICOM stack&lt;/li&gt;
+&lt;li&gt;Save slice (axial, sagittal, coronal)&lt;/li&gt;
+&lt;li&gt;Colormap transform&lt;/li&gt;
+&lt;li&gt;Slider scrolling&lt;/li&gt;
+&lt;li&gt;Mouse hovering/clicking&lt;/li&gt;
+&lt;li&gt;Show DICOM info&lt;/li&gt;
+&lt;li&gt;Show slice index coordinate&lt;/li&gt;
+&lt;li&gt;3D volume reconstruction
+&lt;br&gt;
+&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+&lt;img src=&#34;resources/3D_Processing.jpg&#34; alt=&#34;3D_Processing&#34; width=&#34;960&#34; height=&#34;480&#34;&gt;
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;3dvolumereconstruction&#34;&gt;3D volume reconstruction&lt;/h3&gt;
+&lt;p&gt;&lt;br&gt;
+&lt;a href=&#34;https://github.com/wenyalintw/Dicom_Viewer&#34;&gt;
+    &lt;img src=&#34;resources/3D_Volume.jpg&#34; alt=&#34;3D_Volume&#34; width=&#34;480&#34; height=&#34;480&#34;&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;futureextension&#34;&gt;Future Extension&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;加入數據分析功能
+&gt;導入一些醫學知識，讓軟體有一些初步的分析功能（如有沒有骨折、腫瘤等等）&lt;/li&gt;
+&lt;li&gt;3D reconstruction改善
+&gt;更新volume重建算法，提升計算速度與還原度&lt;/li&gt;
+&lt;li&gt;3D image processing
+&gt;加入對3D voxel影像進行更複雜的影像處理功能&lt;/li&gt;
+&lt;li&gt;Make it distributable
+&gt;包裝成release版本，成為可轉散發軟體。希望能支援跨平台運作（window、macOS）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;howtouseit&#34;&gt;How to use it?&lt;/h2&gt;
+&lt;p&gt;Project root will be &lt;strong&gt;/src&lt;/strong&gt;, just clone it and run mainwindow.py.&lt;/p&gt;
+&lt;p&gt;Strictly follow the package version in requirements.txt is not necessary.&lt;/p&gt;
+&lt;h2 id=&#34;acknowledgments&#34;&gt;Acknowledgments&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wenyalintw/Dicom-Viewer/blob/master/resources/brain.png&#34;&gt;brain.png&lt;/a&gt; licensed under &#34;CC BY 3.0&#34; downloaded from &lt;a href=&#34;https://www.iconfinder.com/icons/1609653/brain_organs_icon&#34;&gt;ICONFINDER&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;3D volumn reconstruction modified from &lt;a href=&#34;https://www.raddq.com/dicom-processing-segmentation-visualization-in-python/&#34;&gt;Howard Chen&#39;s Post&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -224,40 +394,71 @@
       <link>https://wenyalintw.github.io/project/spoken-digit-recognizer/</link>
       <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://wenyalintw.github.io/project/spoken-digit-recognizer/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
+      <description>&lt;p align=&#34;center&#34;&gt;
+  &lt;a href=#&gt;
+    &lt;img src=&#34;resources/microphone.png&#34; alt=&#34;Spoken-Digit Recognizer&#34; width=&#34;96&#34; height=&#34;96&#34;&gt;
+  &lt;/a&gt;
+  &lt;h2 align=&#34;center&#34;&gt;語音數字辨識專案 (Spoken-Digit Recognizer)&lt;/h2&gt;
+  &lt;div align=&#34;center&#34;&gt;
+    本project運用Keras建立Model，辨識使用者說的中/英數字，並使用GUI呈現。
+  &lt;/div&gt;
+  &lt;br&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;demo&#34;&gt;先看段Demo吧！&lt;/h2&gt;
+&lt;h3 id=&#34;spokendigitrecognizerdemoyoutubehttpswwwyoutubecomwatchv_ykum1dxpjm&#34;&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_yKum1DxPJM&#34;&gt;Spoken-Digit Recognizer – Demo (YouTube)&lt;/a&gt;&lt;/h3&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;iframe width=&#34;640&#34; height=&#34;360&#34; src=&#34;https://www.youtube.com/embed/_yKum1DxPJM&#34;&gt;
+&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;Demo詳細介紹請點連結&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Demo_doc.ipynb&#34;&gt;(Detailed) Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;所有使用data皆置於&lt;a href=&#34;https://github.com/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/dataset.rar&#34;&gt;dataset.rar&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;&#34;&gt;英文&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pannous/tensorflow-speech-recognition?fbclid=IwAR1tThhKhbMM_BnKE4SK16qcbuGdw1gJw7iWVVyEhDk9vZFF5Z8E6rjuWUs&#34;&gt;pannous on github&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;連結內spoken&lt;em&gt;numbers&lt;/em&gt;pcm.tar含2400筆.wav檔，為15位不同人唸英文數字(0~9)的單數字音檔(160/人)&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;3位contributer每人自錄160筆，與上述相加共2880筆&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;-1&#34;&gt;中文&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;3位contributer每人自錄500筆，共1500筆
+&lt;ul&gt;
+&lt;li&gt;每筆data為中文數字數字0~9單數字音檔，每人一個數字錄50筆&lt;/li&gt;&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-2&#34;&gt;目標&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;使用者對麥克風説一串中/英文數字(0~9)，程式能辨識使用者說了哪些數字  &lt;/li&gt;
+&lt;li&gt;使用生成對抗網路GAN來生成音檔，即讓程式產出數字0~9的音檔&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;implementation&#34;&gt;Implementation&lt;/h2&gt;
+&lt;p&gt;對目標1，先將包含多數字的音檔分割，再使用不同種model來辨識，詳細介紹請點連結&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/split_audio.ipynb&#34;&gt;(Detailed) Split Audio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/Spectrogram_CNN_doc.ipynb&#34;&gt;(Detailed) Spectrogram + CNN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/MFCC_RNN_doc.ipynb&#34;&gt;(Detailed) MFCC + RNN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;對目標2，使用inverse-STFT方式，詳細介紹請點連結&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nbviewer.jupyter.org/github/wenya-chungyuan-jauhhsiang/Spoken-Digit-Recognizer/blob/master/docs/GAN_doc.ipynb&#34;&gt;(Detailed) GAN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-3&#34;&gt;問題討論&lt;/h2&gt;
+&lt;h3 id=&#34;1&#34;&gt;1. 聲紋影響&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;- 一個沒有經過我們model訓練過的人聲，若進行辨識測驗時的平均正確率會較低
+- 我們認為這和聲紋息息相關，也就是同樣的字由不同人發聲的訊號頻譜存在差異
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;2&#34;&gt;2. 中/英文&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;- 我們初期是以英文數字為輸入音訊，後期則發現英文其實在發音上相較中文有更多的變化性，如某些子音的發音屬於清音，會較容易被誤判為靜音
+- 英文對於發音並沒有制式的音調規則，例如有些字會因語氣不同而音調不同，這導致我們model的辨識正確率並不理想
+- 後來我們選擇嘗試中文，由於中文絕大多數發音是濁音，且抑揚頓挫已有明確定義，因此訓練出的model辨識正確率果然如我們預期，有明顯的提升
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;contributors&#34;&gt;Contributors&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wenyalintw&#34;&gt;WenYa Lin&lt;/a&gt;、&lt;a href=&#34;https://github.com/ChungYuanHsu&#34;&gt;ChungYuan Hsu&lt;/a&gt;、&lt;a href=&#34;https://github.com/r07522749&#34;&gt;JauhHsiang Lan&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
